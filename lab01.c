@@ -41,51 +41,44 @@ void main(void)
         exit(0);
     }
 
-
-    if ("R" == toupper(c1))
+    if (toupper(c1) == 'R')
     {
         n1 += nRed;
     }
-    else if (toupper(c1) == "G")
+    else if (toupper(c1) == 'G')
     {
         n1 += nGreen;
     }
-    else if (toupper(c1) == "Y")
+    else if (toupper(c1) == 'Y')
     {
         n1 += nYellow;
     }
-    else if (toupper(c1) == "O")
+    else if (toupper(c1) == 'O')
     {
         n1 += nOrange;
     }
-    else if (toupper(c1) == "B")
+    else if (toupper(c1) == 'B')
     {
         n1 += nBlue;
     }
-//    else
-//    {
-//        printf("Not a valid number, existing program. \n");
-//        exit(0);
-//    }
 
-
-    if ("R" == toupper(c2))
+    if (toupper(c2) == 'R')
     {
         n2 += nRed;
     }
-    else if ("G" == toupper(c2))
+    else if (toupper(c2) == 'G')
     {
         n2 += nGreen;
     }
-    else if (toupper(c2) == "Y")
+    else if (toupper(c2) == 'Y')
     {
         n2 += nYellow;
     }
-    else if (toupper(c2) == "O")
+    else if (toupper(c2) == 'O')
     {
         n2 += nOrange;
     }
-    else if (toupper(c2) == "B")
+    else if (toupper(c2) == 'B')
     {
         n2 += nBlue;
     }
@@ -94,10 +87,10 @@ void main(void)
         printf("Not a valid color, existing program.\n");
         exit(0);
     }
+    
     printf("%d %d", n1, n2);
     prob = (double)(n1 + n2) / (double)(nRed + nGreen + nYellow + nOrange + nBlue);
     printf("The probabilty for picking those colors are %lf.\n", prob);
-
 }
 
 
