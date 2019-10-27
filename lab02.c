@@ -1,8 +1,7 @@
+// program to print out the fib sequence and the ratio
+
 #include <stdlib.h>
 #include <stdio.h>
-
-// Anandsroop Singh -- sec. 1
-// program to print out the fib sequence and the ratio
 
 int f(int n);
 double ratio(int n);
