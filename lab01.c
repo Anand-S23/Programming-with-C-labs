@@ -1,9 +1,8 @@
+// Program that sees the probablity of picking a particular sock based on color.
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
-
-// Anandsroop Singh  --  Sec. 1
-// Program that sees the probablity of picking a particular sock based on color.
 
 void main(void)
 {
