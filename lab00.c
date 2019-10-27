@@ -1,6 +1,3 @@
-// Anandsrop Singh
-// Program to test
-
 #include <stdio.h>
 #include <stdlib.h>
 
