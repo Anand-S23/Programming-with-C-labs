@@ -1,9 +1,9 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
-#include "stats.h"
+// #include "stats.h"
 
-/*
+
  #define MAXNUM 100
 
 typedef struct person
@@ -15,8 +15,6 @@ typedef struct person
 int getData(FILE *input, Person people[], int maxnum);
 void getAverages(Person people[], double *aveHeight, double *aveWeight, int numPeople);
 void getStandardDevs(Person people[], double aveHeight, double aveWeight, double *stdHeight, double *stdWeight, int numPeople);
-
-*/
 
 void main(void)
 {
