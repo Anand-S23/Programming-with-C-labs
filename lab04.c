@@ -1,9 +1,8 @@
+// Program to compute exponents
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
-// Anandsroop Singh  --  Sec. 1
-// Program to compute exponents
 
 double myPower(double, int);
 
